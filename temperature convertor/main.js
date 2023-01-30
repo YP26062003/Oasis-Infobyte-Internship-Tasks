@@ -8,7 +8,7 @@ for (let i = 0; i < inputs.length; i++) {
     let input = inputs[i];
 
     input.addEventListener("input", function (e) {
-        let value = parseFloat(e.target.value);
+        let value = parseFloat(e.target.value); //Formulae for calculating :)....
         
         switch (e.target.name) {
             case "celcius":
